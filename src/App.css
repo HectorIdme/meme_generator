@@ -85,3 +85,37 @@ input:hover {
   height: 60vh;
   display: block;
 }
+
+@media only screen and (max-width: 767px) {
+  .generatorContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .optionsGenerator{
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .memeCreate{
+    width: 70vw;
+  }
+
+  .memeImg{
+    width: 70vw;
+    display: block;
+    margin: auto;
+  }
+
+  input{
+    width: 60vw;
+  }
+
+  select{
+    width: 60vw;
+  }
+
+
+}

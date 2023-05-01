@@ -59,7 +59,7 @@ function App() {
           <div className='memeCreate' id="meme">
             <p className='textMeme line1'>{line1}</p>
             <p className='textMeme line2'>{line2}</p>
-            <img className="memeImg" src={"/meme_template/"+image+".jpg"} />
+            <img className="memeImg" src={"meme_template/"+image+".jpg"} />
           </div>
 
         </div>
